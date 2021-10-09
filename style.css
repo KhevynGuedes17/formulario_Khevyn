@@ -1,0 +1,137 @@
+body {
+    background-color: rgba(80, 174, 211, 0.356);
+    padding: 5px 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    font-size: 13px;
+    font-family: arial, Tahoma, sans-serif;
+    border-style: solid;
+    border-radius: 10px;
+
+    border-color: #0a3d80;
+    justify-content: center;
+}
+
+a {
+    color: #000;
+}
+.titulo{
+    margin-left:28%;
+}
+.form .name{
+    flex-grow: 1;
+    display: flex;
+    padding: 10px;
+    margin-left: -1%;
+}
+
+.form .telefone {
+    flex-grow: 1;
+    display: flex;
+    padding: 10px;
+    margin-left: -1%;
+}
+
+.form .documento {
+    flex-grow: 1;
+    display: flex;
+    padding: 1px;
+    margin: 1px 0px;
+
+}
+
+
+.form .senha {
+    flex-grow: 1;
+    display: flex;
+    padding: 1px;
+    margin: 1px 0px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #133141;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #E5E5E5;
+    width: 200px;
+    color: #999999;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+    max-width: 400px;
+    line-height: 18px;
+}
+
+input:hover,
+textarea:hover,
+input:focus,
+textarea:focus {
+    border-color: 1px solid #C9C9C9;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 8px;
+}
+.email input{
+    width: 260px;
+   height: 10px;
+}
+.endereco input{
+    width: 260px;
+    height: 10px;
+}
+
+.form label {
+    margin-bottom: 10px;
+    color: #000000cb;
+    display: block;
+}
+
+.lado {
+    position: relative;
+}
+
+.file {
+    width: 220px;
+    height: 40px;
+    background-color: #ffffff7e;
+    color: #FFF;
+    border: radius 20px;
+
+}
+
+.submit input {
+    width: 100px;
+    height: 40px;
+    margin-left: 40%;
+    background-color: rgb(0, 102, 255);
+    color: #FFF;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.radio-toolbar input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-toolbar label {
+    display: inline-block;
+    background-color: rgba(15, 87, 221, 0.411);
+    padding: 4px 11px;
+    font-family: Arial;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .radio-toolbar input[type="radio"]:checked+label {
+    background-color: rgb(0, 102, 255);
+  }
